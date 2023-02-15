@@ -1,0 +1,143 @@
+ h2 {
+     margin-top: 0;
+ }
+ 
+ .body {
+     font-family: sans-serif;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ 
+ .header-blue {
+     color: blue;
+     font-weight: 400px;
+     font-size: 48px;
+     text-transform: uppercase;
+     font-family: monospace;
+ }
+ 
+ .header-yellow {
+     color: yellow;
+     font-weight: 400px;
+     font-size: 48px;
+     text-transform: uppercase;
+     font-family: monospace;
+ }
+ 
+ .banner {
+     background-image: url(./img/kartinka.png);
+     background-repeat: no-repeat;
+     text-align: left;
+     /* width: 100%; */
+     /* height: 85vh; */
+     min-height: 85vh;
+     max-height: 100vh;
+     background-size: 100%;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .banner_content {
+     display: flex;
+     margin-left: 6%;
+ }
+ 
+ .banner_text {
+     align-self: center;
+     color: #FFFFFF;
+     font-size: 1.5rem;
+     margin-left: 60px;
+ }
+ 
+ .last-item {
+     margin-bottom: 0;
+ }
+ 
+ .cards {
+     /* padding-left: 5%;
+    padding-right: 5%; */
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .card {
+     border-color: black;
+     border: solid 3px;
+     border-radius: 25px;
+     width: 30%;
+     max-width: 391px;
+     margin-right: 3%;
+     /*
+    height: 485px; */
+ }
+ 
+ .place_card_name {
+     text-align: left;
+     padding-left: 5px;
+     margin: 0px;
+ }
+ 
+ .place_card_namep {
+     color: #FF9900;
+     text-align: left;
+     padding-left: 5px;
+     font-size: 0.9em;
+     padding-bottom: 10px;
+ }
+ 
+ .card-img {
+     width: 100%;
+ }
+ 
+ .last_card {
+     margin-right: 0%;
+ }
+ 
+ .ukraine-winer-text {
+     padding-top: 2em;
+ }
+ 
+ .poloska {
+     border: 0px;
+     width: 40%;
+     background: #1400FF;
+     height: 5px;
+ }
+ 
+ .kartinka-podcherk {
+     display: block;
+     margin-top: 20px;
+     width: 70%;
+     margin: 0 auto;
+     margin-top: 30px;
+ }
+ 
+ .win-ukraine__button {
+     background: #2A61F0;
+     color: #FFFFFF;
+     font-style: normal;
+     font-weight: 700;
+     display: block;
+     width: 300px;
+     padding: 20 0;
+     text-align: center;
+     text-decoration: none;
+     font-size: 36px;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 50px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .footer {
+     background: linear-gradient(180deg, #013235 0%, #0D0661 100%);
+     text-align: center;
+     padding-bottom: 20PX;
+ }
+ 
+ .footer_header {
+     padding-top: 10px;
+     padding-bottom: 5px;
+     margin-bottom: 0px;
+ }
